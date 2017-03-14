@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GoogleMapsActivity</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="navi">Navigation</string>
+    <string name="navi_route">Route not defined</string>
+    <string name="current_location_not_set">Location not set</string>
+    <string name="current_location">Getting Current location....</string>
+    <string name="eta">ETA:</string>
+
+</resources>

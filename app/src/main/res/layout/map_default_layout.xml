@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:background="#847878"
+    android:paddingLeft="5dp"
+    android:paddingBottom="5dp">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_navigation"
+            android:id="@+id/navi_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:textColor="#45f4ce"
+            android:id="@+id/module_name_default"
+            android:text="@string/navi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+<!--    <TextView
+        android:textColor="#45f4ce"
+        android:id="@+id/route_default"
+        android:text="@string/navi_route"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+    <TextView
+        android:textColor="#45f4ce"
+        android:id="@+id/current_location_default"
+        android:text="@string/current_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp" />
+
+</LinearLayout>
